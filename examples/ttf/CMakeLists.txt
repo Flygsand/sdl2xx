@@ -1,0 +1,5 @@
+find_package(SDL2 REQUIRED)
+find_package(SDL2_ttf REQUIRED)
+add_executable(ttf_example main.cpp)
+target_link_libraries(ttf_example sdl2xx SDL2::SDL2 SDL2::SDL2_ttf)
+file(COPY DejaVuSans.ttf DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

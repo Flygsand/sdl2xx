@@ -1,0 +1,5 @@
+add_subdirectory(image)
+add_subdirectory(mixer)
+add_subdirectory(net)
+add_subdirectory(renderer)
+add_subdirectory(ttf)
